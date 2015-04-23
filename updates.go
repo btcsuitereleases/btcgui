@@ -27,8 +27,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/btcjson/btcws"
+	"github.com/btcsuite/btcgui/internal/legacy/btcjson"
+	"github.com/btcsuite/btcgui/internal/legacy/btcjson/btcws"
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/btcsuite/websocket"
