@@ -7,7 +7,7 @@ btcgui
 btcgui is a graphical client for btcwallet and btcd written using gotk3.
 
 Full btcwallet installation instructions can be found
-[here](https://github.com/btcsuite/btcwallet).
+[here](https://github.com/btcsuitereleases/btcwallet).
 
 This project is currently under active development is not production
 ready yet.  Because of this, support for connecting to a mainnet
@@ -32,18 +32,18 @@ https://opensource.conformal.com/packages/windows/btcdsuite/
 
 - Run the following commands to install btcwallet and btcd:
 ```bash
-$ go get -u -v github.com/btcsuite/btcd/...
-$ go get -u -v github.com/btcsuite/btcwallet/...
+$ go get -u -v github.com/btcsuitereleases/btcd/...
+$ go get -u -v github.com/btcsuitereleases/btcwallet/...
 ```
 
 - Run the following command to install btcgui, using the correct GoTK3
   build tag if you are not running the latest supported GTK:
 ```bash
-$ go get [-tags gtk_#_#] -u -v github.com/btcsuite/btcgui/...
+$ go get [-tags gtk_#_#] -u -v github.com/btcsuitereleases/btcgui/...
 ```
 - For example, Ubuntu 14.04 uses GTK 3.10, so the command would be as follows.
 ```bash
-$ go get -tags gtk_3_10 -u -v github.com/btcsuite/btcgui/...
+$ go get -tags gtk_3_10 -u -v github.com/btcsuitereleases/btcgui/...
 ```
 
   Alternatively, a Makefile is provided which will determine and use the
@@ -51,7 +51,7 @@ $ go get -tags gtk_3_10 -u -v github.com/btcsuite/btcgui/...
   though.
 ```bash
 $ cd $GOPATH/src/github.com/conformal/
-$ git clone https://github.com/btcsuite/btcgui.git
+$ git clone https://github.com/btcsuitereleases/btcgui.git
 $ cd btcgui
 $ make
 ```
@@ -72,9 +72,9 @@ https://opensource.conformal.com/packages/windows/btcdsuite/
 
 - Run the following commands to update btcgui, all dependencies, and install it:
 ```bash
-$ go get -u -v github.com/btcsuite/btcd/...
-$ go get -u -v github.com/btcsuite/btcwallet/...
-$ go get [-tags gtk_#_#] -u -v github.com/btcsuite/btcgui/...
+$ go get -u -v github.com/btcsuitereleases/btcd/...
+$ go get -u -v github.com/btcsuitereleases/btcwallet/...
+$ go get [-tags gtk_#_#] -u -v github.com/btcsuitereleases/btcgui/...
 ```
   Alternatively, running ```make update``` from the btcgui directory will
   determine the correct GTK build tag for your system and call ```go get```

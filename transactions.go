@@ -22,8 +22,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcutil"
+	"github.com/btcsuitereleases/btcd/btcjson"
+	"github.com/btcsuitereleases/btcutil"
 	"github.com/conformal/gotk3/glib"
 	"github.com/conformal/gotk3/gtk"
 )

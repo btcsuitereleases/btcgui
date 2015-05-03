@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/go-flags"
+	"github.com/btcsuitereleases/btcutil"
+	"github.com/btcsuitereleases/go-flags"
 )
 
 const (
