@@ -27,11 +27,11 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/btcsuite/btcgui/internal/legacy/btcjson"
-	"github.com/btcsuite/btcgui/internal/legacy/btcjson/btcws"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/go-socks/socks"
-	"github.com/btcsuite/websocket"
+	"github.com/btcsuitereleases/btcgui/internal/legacy/btcjson"
+	"github.com/btcsuitereleases/btcgui/internal/legacy/btcjson/btcws"
+	"github.com/btcsuitereleases/btcutil"
+	"github.com/btcsuitereleases/go-socks/socks"
+	"github.com/btcsuitereleases/websocket"
 	"github.com/conformal/gotk3/glib"
 )
 

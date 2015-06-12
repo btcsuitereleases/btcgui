@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/btcsuite/btcgui/internal/legacy/btcjson"
-	"github.com/btcsuite/btcutil"
+	"github.com/btcsuitereleases/btcgui/internal/legacy/btcjson"
+	"github.com/btcsuitereleases/btcutil"
 	"github.com/conformal/gotk3/glib"
 	"github.com/conformal/gotk3/gtk"
 )
